@@ -146,4 +146,29 @@ img {
 
 /* Sidebar Section CSS End */
 
+/* Home Hero Section CSS Start */
+
+.home-header {
+  background: url(../images/background.png);
+}
+
+.home-hero-wrapper {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.home-hero-content h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #96002b;
+  margin-bottom: 25px;
+}
+
+.home-hero-content h4 {
+  font-size: 25px;
+  color: #434343;
+}
+
+/* Home Hero Section CSS End */
+
 /* Header Part CSS End */

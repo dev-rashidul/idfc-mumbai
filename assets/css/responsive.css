@@ -15,6 +15,14 @@
     max-width: 250px;
     width: 100%;
   }
+
+  .home-hero-content h2 {
+    font-size: 28px;
+  }
+
+  .home-hero-content h4 {
+    font-size: 20px;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
@@ -36,5 +44,25 @@
 
   .menu-icon img {
     width: 30px;
+  }
+
+  .sidebar {
+    width: 200px;
+  }
+
+  .home-hero-wrapper {
+    padding-top: 100px;
+  }
+
+  .home-hero-content h2 {
+    font-size: 25px;
+  }
+
+  .home-hero-content h4 {
+    font-size: 17px;
+  }
+
+  .league-img img {
+    max-width: 80%;
   }
 }
