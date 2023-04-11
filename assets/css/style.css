@@ -172,3 +172,63 @@ img {
 /* Home Hero Section CSS End */
 
 /* Header Part CSS End */
+
+/* Get Ready Section CSS Start */
+
+.get-ready-wrapper {
+  background: #9d1c27;
+  padding: 10px 0;
+}
+
+.get-ready-content h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.get-ready-content h3 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+/* Get Ready Section CSS End */
+
+/* Participate Section CSS Start */
+
+.participate-wrapper {
+  background: #286713;
+}
+
+.participate-btn {
+  max-width: 550px;
+  width: 100%;
+  margin: auto;
+  background: url(../images/participate-btn-bg.png);
+  padding: 10px 0;
+}
+
+.participate-btn .ball-icon {
+  width: 90px;
+}
+
+.participate-btn .participate-arrow {
+  width: 40px;
+}
+
+.participate-btn a h4 {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.participate-btn a p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+/* Participate Section CSS End */

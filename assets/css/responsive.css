@@ -16,12 +16,18 @@
     width: 100%;
   }
 
-  .home-hero-content h2 {
+  .home-hero-content h2,
+  .get-ready-content h2,
+  .get-ready-content h3 {
     font-size: 28px;
   }
 
   .home-hero-content h4 {
     font-size: 20px;
+  }
+
+  .participate-btn a h4 {
+    font-size: 25px;
   }
 }
 
@@ -54,15 +60,33 @@
     padding-top: 100px;
   }
 
-  .home-hero-content h2 {
-    font-size: 25px;
+  .home-hero-content h2,
+  .get-ready-content h2,
+  .get-ready-content h3 {
+    font-size: 20px;
   }
 
   .home-hero-content h4 {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .league-img img {
     max-width: 80%;
+  }
+
+  .participate-btn a h4 {
+    font-size: 18px;
+  }
+
+  .participate-btn a p {
+    font-size: 14px;
+  }
+
+  .participate-btn .ball-icon {
+    width: 60px;
+  }
+
+  .participate-btn .participate-arrow {
+    width: 25px;
   }
 }
