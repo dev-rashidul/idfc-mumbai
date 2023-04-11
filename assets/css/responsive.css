@@ -34,9 +34,12 @@
 /* Min Width 300px and Max Width 767px */
 
 @media (min-width: 300px) and (max-width: 767px) {
+  .nav-logo {
+    margin-right: 25px;
+  }
+
   .nav-logo img {
-    max-width: 200px;
-    width: 100%;
+    width: 250px;
   }
 
   .menu-icon {
@@ -70,8 +73,12 @@
     font-size: 15px;
   }
 
-  .league-img img {
-    max-width: 80%;
+  .cpl-img {
+    max-width: 60%;
+  }
+
+  .meet-img {
+    max-width: 85%;
   }
 
   .participate-btn {
