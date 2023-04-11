@@ -74,6 +74,12 @@
     max-width: 80%;
   }
 
+  .participate-btn {
+    background: url(../images/participate-btn-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
   .participate-btn a h4 {
     font-size: 18px;
   }
