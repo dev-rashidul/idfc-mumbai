@@ -6,6 +6,12 @@
 
 @font-face {
   font-family: familiar-pro;
+  src: url(../font/FamiliarPro-Regular.TTF);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: familiar-pro;
   src: url(../font/FamiliarPro-Bold.otf);
   font-weight: 700;
 }
@@ -20,6 +26,10 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: familiar-pro;
   scroll-behavior: smooth;
+}
+
+.body {
+  background: url(../images/background.jpg);
 }
 
 #body-overlay {
@@ -232,3 +242,85 @@ img {
 }
 
 /* Participate Section CSS End */
+
+/* ============***============
+About Page CSS
+============***============ */
+
+/* Common Hero Section CSS Start */
+
+.common-hero-wrapper {
+  padding-top: 130px;
+}
+
+.common-hero-logo img {
+  max-width: 200px;
+}
+
+.welcome-btn h5 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: #3a3a3a;
+  background: #ededed;
+  padding: 20px 0;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.welcome-btn h5 span {
+  color: #9d1d28;
+}
+
+/* Common Hero Section CSS End */
+
+/* About Section CSS Start */
+
+.about-wrapper {
+  padding: 30px 0 50px;
+}
+
+.about-container h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #3a3a3a;
+}
+
+.about-content {
+  padding-top: 40px;
+}
+
+.about-content h3 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #9d1d28;
+  margin-bottom: 25px;
+}
+
+.about-content p {
+  font-size: 25px;
+  color: #3f3f3f;
+  padding: 5px 0;
+}
+
+.about-content p span {
+  font-weight: 700;
+}
+
+.about-content h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #3f3f3f;
+}
+
+.about-content h4 a {
+  color: #9d1d28;
+  text-decoration: underline;
+}
+
+/* About Section CSS End */
+
+/* ============***============
+Register Page CSS
+============***============ */

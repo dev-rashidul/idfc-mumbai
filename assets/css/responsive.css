@@ -29,6 +29,14 @@
   .participate-btn a h4 {
     font-size: 25px;
   }
+
+  .about-container h2 {
+    font-size: 32px;
+  }
+
+  .about-content h3 {
+    font-size: 36px;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
@@ -101,5 +109,33 @@
 
   .participate-btn .participate-arrow {
     width: 25px;
+  }
+
+  .common-hero-wrapper {
+    padding-top: 100px;
+  }
+
+  .common-hero-logo img {
+    max-width: 50%;
+  }
+
+  .welcome-btn h5 {
+    font-size: 20px;
+  }
+
+  .about-container h2 {
+    font-size: 28px;
+  }
+
+  .about-content h3 {
+    font-size: 26px;
+  }
+
+  .about-content p {
+    font-size: 20px;
+  }
+
+  .about-content h4 {
+    font-size: 25px;
   }
 }
