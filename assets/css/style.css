@@ -360,6 +360,11 @@ Register Page CSS
   border-radius: 100%;
 }
 
+.form-input-field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
 .form-input-field input {
   width: 100%;
   background: #f3d2d7;
@@ -368,9 +373,14 @@ Register Page CSS
   margin-bottom: 20px;
 }
 
+.warning-message {
+  position: absolute;
+}
+
 .warning-message p {
   font-size: 16px;
   font-weight: 700;
+  text-align: left;
   color: #d30040;
   position: relative;
   margin-top: -15px;
