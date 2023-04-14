@@ -124,12 +124,14 @@
   }
 
   .about-wrapper,
-  .register-wrapper {
+  .register-wrapper,
+  .match-schedule-wrapper {
     padding: 20px 25px 40px;
   }
 
   .about-container h2,
-  .register-title h2 {
+  .register-title h2,
+  .match-title h2 {
     font-size: 26px;
   }
 
@@ -177,7 +179,8 @@
     margin-top: -12px;
   }
 
-  .checkbox label {
+  .checkbox label,
+  .match-content p {
     font-size: 16px;
   }
 
@@ -206,5 +209,30 @@
     max-width: 95%;
     width: 100%;
     margin-top: 15px;
+  }
+
+  .match-schedule-buttons a {
+    font-size: 14px;
+    padding: 3px 12px;
+  }
+
+  .matches h3 {
+    font-size: 18px;
+  }
+
+  .match-content h4 {
+    font-size: 20px;
+  }
+
+  .match-content img {
+    padding: 10px 0;
+  }
+
+  .match-card-bottom {
+    padding: 10px;
+  }
+
+  .match-card-bottom p {
+    font-size: 14px;
   }
 }
